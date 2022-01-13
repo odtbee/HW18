@@ -1,0 +1,29 @@
+/*Header*/
+
+
+
+/*AboutMe*/
+.flexContainer {
+    display:flex;
+    flex-direction: row;
+}
+#left {
+    width: 50%;
+}
+#right {
+    width: 50%;
+}
+div > img {
+    width: 250px;
+    height: auto;
+}
+h2 {
+    margin: 0;
+}
+
+
+
+
+
+/*Footer*/
+
