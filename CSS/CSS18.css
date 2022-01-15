@@ -46,8 +46,6 @@ h1 {
     text-align: center;
     font-family: "Amethysta",serif;
 
-
-    
 }
 
 .flexContainer {
@@ -56,13 +54,26 @@ h1 {
 }
 #left {
     width: 50%;
+    text-align: center;
+    margin: 5%;
+    padding: 1%;
 }
 #right {
     width: 50%;
+    text-align: center;
+    border:5%;
+    padding:1%;
+    background-color: #6667ab;
+}
+.info {
+    padding:1%;
 }
 div > img {
     width: 250px;
     height: auto;
+    align-items: center;
+    padding:10px;
+    
 }
 h2 {
     margin: 0;
@@ -74,11 +85,38 @@ h3 {
     text-align: center;
     font-size: 18px;
     font-family:"Comfortaa";
+    margin:10%;
+    color:#eeeeee;
+}
+.info > p {
+    font-family: "Amethysta", serif;
 }
 
-
-
-
-
 /*Footer*/
+
+footer {
+    background: #222222;
+}
+.copyright {
+    margin-left: 20px;
+}
+.iconContainer {
+    margin-left:auto;
+    margin-right:20px;
+
+
+}
+.iconContainer > img {
+    width: 24px;
+    
+    
+}
+.flexFooter {
+    display: flex;
+    flex-direction: row;
+}
+.copyright > P {
+    font-family: "Amethysta",serif;
+    color:#eeeeee;
+}
 
